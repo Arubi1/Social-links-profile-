@@ -1,0 +1,83 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --DarkGrey: hsl(0, 0%, 12%);
+  --OffBlack: hsl(0, 0%, 8%);
+  --Green: hsl(75, 94%, 57%);
+}
+
+* {
+  /* background-image: url(/assets/images/favicon-32x32.png); */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  /* background-color: var(--OffBlack); */
+}
+
+body {
+  /* margin: 0.5rem; */
+  text-align: center;
+  width: auto;
+  justify-items: center;
+  background-color: var(--OffBlack);
+  font-weight: 400, 600, 700;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+}
+
+nav {
+  border: 2px solid var(--DarkGrey);
+  border-radius: 0.5rem;
+  margin: 10px auto 2px;
+  line-height: 3rem;
+  font-size: 2rem;
+  width: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: var(--DarkGrey);
+}
+.picture img {
+  border-radius: 5.5rem;
+  border-image: round;
+  margin-top: 50px;
+}
+/* .............List items............ */
+ul li {
+  border: 10px solid;
+  border-radius: 0.4rem;
+  border-width: 1px;
+  color: white;
+  background-color: var(--Grey);
+  list-style: none;
+  border: 5px solid var(--Grey);
+  margin: 15px;
+}
+li a {
+  display: block;
+}
+li a,
+li a :visited {
+  text-decoration: none;
+  color: var(--White);
+  padding-left: 2rem;
+  ma
+}
+li a:hover,
+li a :focus {
+  color: var(--OffBlack);
+  background: var(--Green);
+  border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+}
+/* ............paragraphs ......... */
+.Lon {
+  color: var(--Green);
+}
+
+h1 {
+  color: white;
+}
+p {
+  color: var(--White);
+  font-size: 23px;
+}
